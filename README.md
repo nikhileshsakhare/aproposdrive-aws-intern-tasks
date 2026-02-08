@@ -19,11 +19,11 @@ The core of this project is built around **Dockerized applications** running on 
 
 | Folder | Task Description | Key AWS Services |
 | --- | --- | --- |
-| **[EC2 Deployment]()** | Launching EC2 and initializing the Docker runtime environment. | EC2, Docker |
-| **[Application Access]()** | Mapping a custom domain to AWS using static IPs and DNS delegation. | Route 53, Elastic IP |
-| **[Load Balancer & Auto Scaling]()** | Implementing high availability and CPU-based elasticity. | ALB, ASG, CloudWatch |
-| **[Cost Optimization]()** | Strategies for maintaining a zero-cost infrastructure under Free Tier. | AWS Budgets, Right-sizing |
-| **[Troubleshooting]()** | Documenting and resolving common cloud connectivity and container issues. | Logs, CLI Debugging |
+| **[EC2 Deployment](https://github.com/nikhileshsakhare/aproposdrive-aws-intern-tasks/tree/main/AWS%20EC2%20Deployment)** | Launching EC2 and initializing the Docker runtime environment. | EC2, Docker |
+| **[Application Access](https://github.com/nikhileshsakhare/aproposdrive-aws-intern-tasks/tree/main/Application%20Access)** | Mapping a custom domain to AWS using static IPs and DNS delegation. | Route 53, Elastic IP |
+| **[Load Balancer & Auto Scaling](https://github.com/nikhileshsakhare/aproposdrive-aws-intern-tasks/tree/main/Load%20Balancer%20%26%20Auto%20Scaling)** | Implementing high availability and CPU-based elasticity. | ALB, ASG, CloudWatch |
+| **[Cost Optimization](https://github.com/nikhileshsakhare/aproposdrive-aws-intern-tasks/blob/main/task6_deliverable_pdf.pdf)** | Strategies for maintaining a zero-cost infrastructure under Free Tier. | AWS Budgets, Right-sizing |
+| **[Troubleshooting](https://github.com/nikhileshsakhare/aproposdrive-aws-intern-tasks/blob/main/task7_deliverable_pdf.pdf)** | Documenting and resolving common cloud connectivity and container issues. | Logs, CLI Debugging |
 
 ## 🏗️ Global Architecture
 
