@@ -1,0 +1,18 @@
+# for connecting to EC2 Instance
+chmod 400 docker-mumbai-key.pem
+ssh -i "docker-mumbai-key.pem" ec2-user@13.203.65.241
+
+# for setting up docker in instance
+sudo -i
+yum update -y
+yum install docker -y
+systemctl start docker
+systemctl enable docker
+usermod -aG docker ec2-user
+docker --version
+systemctl status docker
+
+# for running a container in docker
+docker ps -a
+docker run -d -p 80:80 --name my-web-server nginx
+docker ps
